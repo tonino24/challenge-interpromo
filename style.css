@@ -1,0 +1,80 @@
+body {
+  display: block;
+  border: none;
+  margin: 0;
+}
+
+#block {
+  display: inline-block;
+  position: relative;
+  width:100%;
+
+}
+
+ .leftHeader {
+   display: inline-block;
+   position: absolute;
+   left:0;
+ }
+
+ .rightHeader {
+   display: inline-block;
+   position: absolute;
+   right:0;
+ }
+
+ .bg1 {
+   background-image:url(images/payments-banner-graphic.png);
+   height: 800px;
+ }
+
+ .block1 {
+   text-align: center;
+   top: 250px;
+ }
+
+ #sousBlock {
+   display: inline-block;
+   padding: 20px 50px 50px 50px;
+   text-align: center;
+ }
+
+ .block2 {
+   text-align: center;
+   border-bottom: 1px solid grey;
+   height: 400px;
+ }
+
+ .block3 {
+   height: 400px;
+ }
+
+ .block4 {
+   height: 100px;
+   background-color: grey;
+   text-align: center;
+ }
+
+ .sousBlock1 {
+   border-right: 1px solid grey;
+   margin-top: 50px;
+ }
+
+ .sousBlock2 {
+   border-right: 1px solid grey;
+ }
+
+ #miniBlock {
+   height: 500px;
+   width: 631px;
+   display: inline-block;
+
+ }
+
+.miniBlock1, .miniBlock4, .miniBlock5 {
+  background-color: blue;
+}
+
+.miniBlock2, .miniBlock3, .miniBlock6 {
+  background-color: white;
+}
